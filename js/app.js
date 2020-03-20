@@ -8,35 +8,25 @@
     asNavFor: '.slider-nav'
   });
   $('.slider-nav').slick({
-    slidesToShow: 5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     infinite: true,
     centerMode: true,
-    centerPadding: '60',
     arrows: true,
     draggable: true,
     cssEase: 'linear',
-    //autoplay: true,
     asNavFor: '.slider-for',
     focusOnSelect: true,
     responsive: [
       {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3,
-          centerMode: true,
-          centerPadding: '25%'
-        }
-      },
-      {
-        breakpoint: 480,
+        breakpoint: 513,
         settings: {
           centerMode: true,
           centerPadding: '0px',
           slidesToShow: 3
         }
       }
-    ]
+  ]
   });
  
   $('a[data-slide]').click(function(e) {
