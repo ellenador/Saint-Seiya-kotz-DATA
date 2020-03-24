@@ -1,38 +1,39 @@
- // js carrousel:
-  $('.slider-for').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    asNavFor: '.slider-nav'
-  });
-  $('.slider-nav').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    infinite: true,
-    centerMode: true,
-    arrows: true,
-    draggable: true,
-    cssEase: 'linear',
-    asNavFor: '.slider-for',
-    focusOnSelect: true,
-    responsive: [
-      {
-        breakpoint: 513,
-        settings: {
-          centerMode: true,
-          centerPadding: '0px',
-          slidesToShow: 3
-        }
+
+// js carrousel:
+$('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  infinite: true,
+  centerMode: true,
+  arrows: true,
+  draggable: true,
+  cssEase: 'linear',
+  asNavFor: '.slider-for',
+  focusOnSelect: true,
+  responsive: [
+    {
+      breakpoint: 513,
+      settings: {
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 3
       }
-  ]
-  });
- 
-  $('a[data-slide]').click(function(e) {
-    e.preventDefault();
-    var slideno = $(this).data('slide');
-    $('.slider-nav').slick('slickGoTo', slideno - 1);
-  });
+    }
+]
+});
+
+$('a[data-slide]').click(function(e) {
+  e.preventDefault();
+  var slideno = $(this).data('slide');
+  $('.slider-nav').slick('slickGoTo', slideno - 1);
+});
 
 
   /*! lazysizes - v4.1.1 */
