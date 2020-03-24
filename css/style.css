@@ -12,11 +12,6 @@ nav {
     margin: auto; 
     margin-left: -10px;
     margin-right: -10px;
-    /*position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;*/
 }
 
 .container-fluid {
@@ -39,6 +34,11 @@ margin-bottom: 20px;
   max-width: 100%;
   margin: auto;
   background: #ffffff07;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  padding-right: 15px;
+  padding-left: 15px;
 }
 /*FIN DE WIDGETS
 *******************************************/
@@ -754,6 +754,320 @@ li.titanes-altar.cosmos-day.col-12 {
   width: 80%;
 }*/
 
+/**************************
+********SLICK PERSONAJES*****/
+.main-d {
+  max-width: 100%;
+  margin: auto;
+  background: #ffffff07;
+  padding-bottom: 20px;
+}
+
+/**********************
+**SLICK DE PERSONAJES*/
+/*********************/
+.slider-nav-2 {
+  margin: auto;
+  text-align: center;
+}
+
+.slick-vertical .slick-slide {
+  max-height: 110px !important;
+  margin: auto;
+}
+
+.slider-nav-2 img {
+  width: 70px !important;
+  margin: 40px auto !important;
+
+  border: 5px solid #ffffff15;
+  border-bottom: 5px solid;
+  cursor: pointer;
+}
+
+.slider-nav-2 img:focus {
+  outline: 0px !important;
+}
+
+.slick-center {
+  transform: scale(1.2, 1.2);
+  transform-origin: 50% 50%;
+}
+
+.fund-color {
+  background: rgb(20, 22, 34);
+}
+
+.slider-nav-2 .slick-prev {
+  left: -10px !important;
+}
+
+.slider-nav-2 .slick-next {
+  right: -10px !important;
+}
+
+@media (min-width: 1200px) {
+  .slider-nav-2 button.slick-next.slick-arrow {
+      left: 50% !important;
+      transform: translate(-50%, 0) rotate(90deg) !important;
+  }
+
+  .slider-nav-2 button.slick-prev.slick-arrow {
+      left: 50% !important;
+      transform: translate(-50%, 0) rotate(90deg) !important;
+  }
+
+  .slider-nav-2 .slick-next {
+      top: unset !important;
+      bottom: -30px !important;
+  }
+
+  .slider-nav-2 .slick-prev {
+      top: -30px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .slider-nav-2 button.slick-next.slick-arrow {
+      left: 50% !important;
+      transform: translate(-50%, 0) rotate(90deg) !important;
+  }
+
+  .slider-nav-2 button.slick-prev.slick-arrow {
+      left: 50% !important;
+      transform: translate(-50%, 0) rotate(90deg) !important;
+  }
+
+  .slider-nav-2 .slick-next {
+      top: unset !important;
+      bottom: -30px !important;
+  }
+
+  .slider-nav-2 .slick-prev {
+      top: -30px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 632px) {
+  .table-card th {
+      font-size: 11px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-img {
+      width: 35%;
+      margin: auto;
+  }
+}
+
+.slider-for-2 .card-title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 90% !important;
+  overflow: hidden;
+}
+
+.slider-for-2 .badge {
+  position: absolute;
+  right: 20px;
+}
+
+
+.card-body {
+  padding-bottom: 0;
+}
+
+.card-img,
+.card-img-bottom {
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+.card-img,
+.card-img-top {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.contenedor-slide-2 {
+  width: 100%;
+  margin: 0 auto !important;
+
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.card {
+  border-radius: 2px;
+}
+
+.badge-violet {
+  color: #f0f0f0;
+  background-color: #f707ff;
+}
+
+.available-footer {
+  color: #f1f1f1;
+  background: #0000003d;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  text-shadow: 1px 1px 0px #000000;
+}
+
+.rating-pj {
+  position: absolute;
+  top: -1px;
+  right: 0;
+}
+
+.startG {
+  content: url(https://img.icons8.com/material/50/000000/star--v1.png);
+  width: 14px;
+  vertical-align: middle;
+}
+
+.startG-n {
+  content: url(https://img.icons8.com/material/50/000000/star--v1.png);
+  width: 14px;
+  filter: invert(0.8);
+  vertical-align: middle;
+}
+
+.iconoz-info {
+  margin: auto;
+  content: url(https://img.icons8.com/windows/50/000000/box-important.png);
+  width: 13px;
+}
+
+.iconoz-arrows {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.iconoz-arrows::before {
+  content: url(https://img.icons8.com/material/50/000000/double-down--v1.png);
+  width: 15px;
+  position: absolute;
+  margin-left: -2px;
+  margin-top: -16px;
+  transform: scale(0.3);
+  cursor: pointer;
+}
+
+@media (max-width: 620px) {
+  .iconoz-arrows::before {
+      margin-left: -6px;
+      transform: scale(0.2);
+  }
+}
+
+.iconoz-avaliable {
+  filter: contrast(40%) sepia(1) hue-rotate(40deg) saturate(2000%);
+  width: 18px;
+}
+
+.iconoz-x {
+  filter: contrast(40%) sepia(1) hue-rotate(301deg) saturate(2000%);
+  width: 18px;
+}
+
+.table-card th {
+  background-color: #f1f1f1;
+}
+
+.table-card {
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+.table-card td:nth-child(2) {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.table-card td:nth-child(2):hover {
+  overflow: visible;
+  white-space: normal;
+  cursor: zoom-in;
+}
+
+.table-card td:nth-last-child(1) {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.table-card td:nth-last-child(1):hover {
+  overflow: visible;
+  white-space: normal;
+  cursor: zoom-in;
+}
+
+.utilidad-pvp {
+  width: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #dc3545;
+  transition: width 0.6s ease;
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 1rem 1rem;
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  animation: progress-bar-stripes 1s linear infinite;
+}
+
+.utilidad-pve {
+  width: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #343a40;
+  transition: width 0.6s ease;
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 1rem 1rem;
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  animation: progress-bar-stripes 1s linear infinite;
+}
+
+.celda-legendario {
+  background: rgba(255, 147, 228, 0.45) !important;
+}
+
+.celda-solar {
+  background: rgba(255, 84, 84, 0.45) !important;
+}
+
+.celda-lunar {
+  background: rgba(252, 255, 86, 0.45) !important;
+}
+
+.celda-estelar {
+  background: #4848ff28 !important;
+}
+
+.accordion>.card {
+  color: wheat;
+  background: #1d2630;
+}
+/***************************
+***********FINAL SLICK PERSONAJES*/
 /***FOOTER*****
 *********************/
 .footer-links
